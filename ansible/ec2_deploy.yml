@@ -13,5 +13,5 @@
         assign_public_ip: yes
         count: 1
         aws_access_key: "{{ access_key }}"
-        aws_security_token: "{{ secret_key }}"
+        aws_secret_key: "{{ secret_key }}"
         security_token: "{{ session_token }}"
